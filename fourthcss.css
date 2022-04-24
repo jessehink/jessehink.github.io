@@ -1,0 +1,34 @@
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+div.wrapperi{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.rivi1, .rivi1 a{color:#C0BAB6; background-color:#333333;}
+.rivi2{color:#979797; background-color:#FFFFFF;}
+.rivi2 a{color:#FF9900; background-color:#FFFFFF;}
+.rivi3, .rivi3 a{color:#919191; background-color:#232323;}
+
+#header, #container, #footer{display:block; width:960px; margin:0 auto;}
+
+.ekakuva{display:block; float:left; margin:0 20px 0 0; text-align:justify;}
+.ekakuva{width:225px;}
+.vikalaatikko{margin-right:0;}
+
+#header{padding:20px 0;}
+
+#container #sivu #artikkeli article{display:inline; float:left; width:300px; margin:0 30px 0 0; padding:0;}
+#container #sivu #artikkeli .last{margin-right:0;}
+#container #sivu #artikkeli figure{display:inline; float:left;}
+#container #sivu #artikkeli strong{float:left; margin:8px 0 0 10px; padding:0; font-size:14px; font-weight:bold; text-transform:uppercase;}
+#container #sivu #artikkeli p{display:block; margin:0; padding:5px 0 0 0; clear:both; line-height:1.6em;}
+#container #sivu #artikkeli .spacer{clear:both; padding:8px 0; line-height:normal;}
+
+#footer{padding:20px 0;}
+#footer p{margin:0; padding:0;}
